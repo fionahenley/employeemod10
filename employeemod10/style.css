@@ -1,0 +1,55 @@
+body {
+    background: #d8d8d8;
+  }
+  
+  /*styling for the jumbotron header*/
+  .jumbotron {
+    background: #c5d7d9;
+    border: 1px solid #2a5d68;
+    font-family: 'Bebas Neue', cursive;
+  }
+  
+  h1 {
+    font-size: 80px;
+    font-stretch: extra-expanded;
+    color: #2a5d68;
+  }
+  
+  /*styling for the employee card area*/
+  .team-area {
+    column-count: 3;
+  }
+  
+  .card {
+    margin-bottom: 15px;
+    border: 5px solid #2a5d68;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+    color: #2a5d68;
+  }
+  
+  .card-header {
+    background: #c5d7d9;
+  }
+  
+  h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+  h3 {
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  .card-body {
+    background: #dcdbe1;
+  }
+  
+  /*media query for different screen size*/
+  @media screen and (max-width: 1000px) {
+  
+    .team-area {
+      column-count: 1;
+    }
+  }
