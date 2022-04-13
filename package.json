@@ -1,0 +1,28 @@
+{
+  "name": "employeemod10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  
+    "scripts": {
+      "test": "jest"
+    },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fionahenley/employeemod10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fionahenley/employeemod10/issues"
+  },
+  "homepage": "https://github.com/fionahenley/employeemod10#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
